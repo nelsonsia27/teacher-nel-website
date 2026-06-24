@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Teacher Nel's Website</title>
+    <meta name="description" content="Teacher Nel's foreign English teaching portfolio, activities, and classroom resources in Taiwan.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <a class="brand" href="#home" aria-label="Teacher Nel home">
+        <span class="brand-mark">TN</span>
+        <span>Teacher Nel's Website</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation"></nav>
+      <button class="search-toggle" type="button" aria-label="Open site search">Search</button>
+    </header>
+
+    <main>
+      <section class="hero page active" id="home" data-page="home">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Foreign English Teacher in Taiwan</p>
+          <h1>Teacher Nel's Website</h1>
+          <p>Activities, teaching resources, bilingual initiatives, and classroom stories from my work in Taiwan.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#about">Explore My Work</a>
+            <a class="button" href="https://www.youtube.com/@Teacher_Nel" target="_blank" rel="noreferrer">YouTube Channel</a>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#about" aria-label="Scroll to About">⌄</a>
+      </section>
+
+      <section class="page content-page" id="about" data-page="about"></section>
+      <section class="page content-page" id="school-activities" data-page="school-activities"></section>
+      <section class="page content-page" id="winter-camp" data-page="winter-camp"></section>
+      <section class="page content-page" id="summer-camp" data-page="summer-camp"></section>
+      <section class="page content-page" id="teaching-resources" data-page="teaching-resources"></section>
+      <section class="page content-page" id="presentations" data-page="presentations"></section>
+      <section class="page content-page" id="video-lessons" data-page="video-lessons"></section>
+      <section class="page content-page" id="worksheets" data-page="worksheets"></section>
+      <section class="page content-page" id="games" data-page="games"></section>
+      <section class="page content-page" id="experiences" data-page="experiences"></section>
+      <section class="page content-page" id="bilingual-initiative" data-page="bilingual-initiative"></section>
+      <section class="page content-page" id="classroom-english" data-page="classroom-english"></section>
+      <section class="page content-page" id="english-reading-corner" data-page="english-reading-corner"></section>
+      <section class="page content-page" id="english-practice" data-page="english-practice"></section>
+      <section class="page content-page" id="monthly-storytelling" data-page="monthly-storytelling"></section>
+    </main>
+
+    <aside class="search-panel" aria-hidden="true">
+      <div class="search-box">
+        <button class="close-search" type="button" aria-label="Close search">×</button>
+        <label for="site-search">Search the site</label>
+        <input id="site-search" type="search" placeholder="Try worksheets, storytelling, Mystery Box...">
+        <div class="search-results" role="list"></div>
+      </div>
+    </aside>
+
+    <footer class="site-footer">
+      <p>合作單位：彰化縣國際教育暨英語教學資源中心 · Changhua International Education and English Teaching Resource Center · 彰化縣人師教育協會 (MCC)</p>
+      <p><a href="#home">Back to top</a></p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
